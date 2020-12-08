@@ -38,7 +38,7 @@ main {
 }
 
 main .main-bg {
-    background-image: url("/stylesheets/imgs/main-bg.jpg");
+    background-image: url("/imgs/main-bg.jpg");
     background-position: center;
     background-size: cover;
     position: absolute;
