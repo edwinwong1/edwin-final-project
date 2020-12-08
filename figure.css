@@ -20,7 +20,7 @@
 }
 
 .figure-title .figure-bg {
-    background-image: url('/imgs/figure-bg.jpg');
+    background-image: url('imgs/figure-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
