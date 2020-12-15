@@ -21,7 +21,14 @@
     color: white;
     font-size: 2rem;
     font-family: 'Lato', sans-serif;
+    /* max-width: 100%; */
     /* box-shadow: 0px 0px 50px 30px rgb(0, 0, 0, 1) inset; */
+}
+
+.interviewee-title img {
+    width: 200px;
+    height: 260px;
+    margin-right: 2rem;
 }
 
 .interviewee-title .interviewee-bg {
