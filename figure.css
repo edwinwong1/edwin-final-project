@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 
 * {
@@ -41,11 +42,73 @@
     height: 100%;
     width: 100%;
     max-width: 100%;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     z-index: -1;
+}
+
+.figure-content {
+    background: rgb(0, 0, 0);
+    padding: 1rem;
+}
+
+.figure__bottom-content {
+    display: flex;
+}
+
+.figure__image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: wrap column;
+    margin: 3rem;
+    width: 1200px;
+}
+
+.figure__image img {
+    max-width: 100%;
+    border: 5px solid rgb(148, 148, 148);
+
 }
 
 .figure-container .span-bold {
     display: inline-block;
     font-weight: bold;
+}
+
+.figure-content {
+    padding: 2rem;
+}
+
+.figure__paragraph-container {
+    padding: 1rem;
+    border-bottom: 5px solid rgb(131, 131, 131);   
+    margin-bottom: 2rem;
+    color: rgb(177, 177, 177);
+}
+
+.figure__paragraph {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+.figure-container {
+    margin: 4rem 0;
+    padding: 2rem 0;
+    border-bottom: 5px solid rgb(82, 82, 82);
+    box-shadow: 5px 5px 30px 2px rgb(31, 31, 31);
+    padding: 2rem;
+}
+
+.figure-container h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    /* color:rgb(131, 131, 131); */
+    /* color: rgb(255, 205, 113); */
+    color: rgb(201, 201, 201);
+    margin-bottom: 1rem;
+}
+
+.figure-container p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
 }

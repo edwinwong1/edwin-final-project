@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.interview__main {
+    padding: 2rem;
+    background-color: #f6f6f6;
+}
+.interview__background-info {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+.interview__question-container {
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: white;
+    border-bottom: 5px solid gray;
+    box-shadow: 5px 5px 30px 1.5px black;
+}
+
+.interview__question {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.interview__purpose {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+.interview__response {
+    font-size: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
+}
